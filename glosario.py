@@ -23,6 +23,13 @@ def glosario_inicial():
         print(f"-> {termino}: {definicion}")
 
 
+# --- TAREA PARA EL ALUMNO ---
+# Instrucciones:
+# 1. Crea una rama 'feature-tu-termino'
+# 2. Crea una función nueva siguiendo el ejemplo de abajo
+# 3. Llámala dentro del bloque 'if __name__ == "__main__":'
+
+
 def orm():
     termino = "ORM"  # Reemplazar con el término asignado o elegido
     definicion = "es una técnica y herramienta de software que permite interactuar con bases de datos relacionales (como MySQL, PostgreSQL) utilizando el paradigma de programación orientada a objetos"
