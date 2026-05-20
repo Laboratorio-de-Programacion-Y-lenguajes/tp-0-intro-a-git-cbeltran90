@@ -1,10 +1,3 @@
-"""
-IF009 - Laboratorio de Programación y Lenguajes (UNTDF)
-TP 0: Git & GitHub Flow
-Script base para el Glosario Colaborativo
-"""
-
-
 def mostrar_bienvenida():
     print("=" * 40)
     print("  GLOSARIO COLABORATIVO - LPyL")
@@ -37,7 +30,7 @@ def glosario_inicial():
 # 3. Llámala dentro del bloque 'if __name__ == "__main__":'
 
 
-def ORM():
+def orm():
     termino = "ORM"  # Reemplazar con el término asignado o elegido
     definicion = "es una técnica y herramienta de software que permite interactuar con bases de datos relacionales (como MySQL, PostgreSQL) utilizando el paradigma de programación orientada a objetos"
     print(f"[NUEVO] {termino}: {definicion}")
@@ -46,7 +39,4 @@ def ORM():
 if __name__ == "__main__":
     mostrar_bienvenida()
     glosario_inicial()
-    ORM()
-
-    # El alumno debe agregar la llamada a su función aquí:
-    # agregar_definicion_alumno()
+    orm ()
